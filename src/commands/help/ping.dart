@@ -2,10 +2,12 @@ import 'dart:async';
 
 import 'package:mineral/api.dart';
 
+import '../../components/button.dart';
+
 final class PingCommand implements CommandDeclaration {
   FutureOr<void> handle(ServerCommandContext ctx, {required int value}) {
     print(value);
-    ctx.interaction.reply(content: '$value');
+    ctx.interaction.reply(content: '$value', components: [RowBuilder()..addComponent(Button().testButton)]);
   }
 
   @override
