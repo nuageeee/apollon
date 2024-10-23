@@ -3,7 +3,7 @@ import 'package:mineral_cache/providers/memory.dart';
 
 import 'commands/help/ping.dart';
 import 'commands/info/version.dart';
-import 'commands/mod/ban.dart';
+// import 'commands/mod/ban.dart';
 import 'events/Ready.dart';
 
 void main(_, port) async {
@@ -12,7 +12,7 @@ void main(_, port) async {
 
   client.registerCommand(PingCommand.new);
   client.registerCommand(VersionCommand.new);
-  client.registerCommand(BanCommand.new);
+  // client.registerCommand(BanCommand.new);
 
   client.register(Ready.new);
   await client.init();
