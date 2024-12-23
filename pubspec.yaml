@@ -1,4 +1,4 @@
-name: mineral_bot
+name: apollon
 description: Build a powerful Discord applications in Dart
 version: 1.0.0
 
@@ -8,8 +8,8 @@ environment:
   sdk: '^3.2.0'
 
 dependencies:
- mineral: ^4.0.0-dev.4
- mineral_cache: ^1.0.0-dev.2
+ mineral: ^4.0.0-dev.6
+ mineral_cache: ^1.0.0-dev.3
  mysql_client: ^0.0.27
  os: ^1.0.1
 
