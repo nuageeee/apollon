@@ -8,7 +8,7 @@ environment:
   sdk: '^3.2.0'
 
 dependencies:
- mineral: ^4.0.0-dev.6
+ mineral: ^4.0.0-dev.8
  mineral_cache: ^1.0.0-dev.3
  mysql_client: ^0.0.27
  os: ^1.0.1

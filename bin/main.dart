@@ -7,6 +7,8 @@ void main(_, port) async {
     .setCache((e) => MemoryProvider())
     .setHmrDevPort(port)
     .registerProvider(InfoProvider.new)
+    .registerProvider(ModProvider.new)
+    .registerProvider(EventsProvider.new)
     .build();
 
     await client.init();

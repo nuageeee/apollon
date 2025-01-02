@@ -183,7 +183,7 @@
     },
     {
       "name": "mineral",
-      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/mineral-4.0.0-dev.6",
+      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/mineral-4.0.0-dev.8",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -416,7 +416,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-12-22T20:40:49.087016Z",
+  "generated": "2024-12-26T15:43:41.842629Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "pubCache": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache"
