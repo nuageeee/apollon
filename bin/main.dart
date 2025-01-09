@@ -1,3 +1,4 @@
+import 'package:apollon/events.dart';
 import 'package:mineral/api.dart';
 import 'package:apollon/application.dart';
 import 'package:mineral_cache/providers/memory.dart';
